@@ -4,7 +4,6 @@ import logo from './logo.png';
 import man from './man.png';
 import woman from './woman.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Animate }  from 'react-simple-animate';
 
 
 function App() {
