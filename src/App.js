@@ -11,19 +11,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark  justify-content-center bg-dark top-most">
+      <nav className="navbar navbar-expand-lg navbar-dark  nav-bg-dark top-most">
         <div className='nav-bar-wide'>
           <div className="navbar-nav nav-border center-content">
-          <Button className='btn btn-link'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="bi bi-play" viewBox="0 0 16 16">
+          <Button className='btn nav-play-button'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="bi bi-play" viewBox="0 0 16 16">
             <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
           </svg></Button>
             <a className="nav-item nav-link " href="#">Background & Challenges</a>
             <a className="nav-item nav-link " href="#">Solution</a>
             <a className="nav-item nav-link " href="#">Result & Effectiveness</a>
             <a className="nav-item nav-link " href="#">Slideshow</a>
+            
           </div>
+          
+          
         </div>
-        
+        <button type="button" className="btn nav-btn-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-download" viewBox="0 0 20 20">
+  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+</svg>Download board</button>
       </nav>
 
       <div class="play-btn top-most">

@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav-bg-dark{
+  background-color: #333333;
+
+}
 .hero{
   background-image:
    linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(12, 53, 61, 1)),
@@ -195,6 +199,7 @@ code {
 .navbar-nav a{
   margin-right: 10px !important;
   margin-left: 10px !important;
+  color: #fff !important;
 }
 .top-most{
   position: absolute;
@@ -223,10 +228,11 @@ code {
 }
 .nav-border a{
   border-left: 1px solid rgb(90, 90, 90);
+  padding-left: 25px !important;
 }
-.navbar button{
-  background-color: rgb(68, 67, 67);
-  border-color: rgb(68, 67, 67);
+.nav-play-button{
+  background-color: rgb(68, 67, 67) !important;
+  border-color: rgb(68, 67, 67) !important;
   padding-left: 2px !important;
   padding-right: 2px !important;
   padding-top: 2px !important;
@@ -239,5 +245,11 @@ code {
   transition: 1s;
 }
 .nav-bar-wide{
-  width: 80%;
+  width: 70%;
+}
+.nav-btn-dark{
+  background-color: #282828 !important;
+  color: #fff !important;
+  border-radius: 15px !important;
+  
 }
