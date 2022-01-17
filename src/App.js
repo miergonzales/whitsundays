@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import {Container, Col, Row} from 'react-bootstrap';
 import './App.css';
 import logo from './logo.png';
