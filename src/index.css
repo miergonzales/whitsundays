@@ -13,6 +13,8 @@ code {
 }
 .nav-bg-dark{
   background-color: #333333;
+  position: fixed !important;
+  z-index: 5 !important;
 
 }
 .hero{
